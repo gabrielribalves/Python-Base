@@ -67,7 +67,11 @@ for num in nums:
         num = int(num)
     validNums.append(num)
 
-n1, n2 = validNums
+try:
+    n1, n2 = validNums
+except ValueError as e:
+    print(f"[ERROR] {str(e)}")
+    sys.exit(1)
 
 if operation == "sum":
     result = n1 + n2

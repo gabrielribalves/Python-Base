@@ -1,2 +1,5 @@
-Tag: tech
-Text: teste do texto
+Tag: tech	Text: primeiro tecxto
+Tag: tech	Text: segundo texto
+Tag: comida	Text: Feijão é bao
+Tag: comida	Text: Salmão é bao
+Tag: comida	Text: Sopa é janta

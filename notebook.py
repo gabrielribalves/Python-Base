@@ -21,11 +21,12 @@ filePath = os.path.join(path, "notes.txt")
 
 def readNote(tag, filePath):
     for line in open(filePath):
-        if line.split(":")[0] == tag:
-            for phrase in line.split(",")[1:]:
-                print(phrase)
-            sys.exit(0)
-    
+        # print(line.split("\t")[0][5:])
+        # print(tag)
+
+        if line.split("\t")[0][5:] == tag:
+            print(line.split("Text: ")[1])
+    sys.exit(0)
     #tec:Eaeee legal hein
     # nossaaa ahhhh
 
@@ -34,7 +35,7 @@ def writeNote(tag, filePath):
     inputText = input("Text: ")
 
     with open(filePath, "a") as file_ :
-        file_.write(f"Tag: {tag}\nText: {inputText}\n")
+        file_.write(f"Tag: {tag}\tText: {inputText}\n")
 
 
 if operation == "read":
