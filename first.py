@@ -19,23 +19,40 @@ __author__ = "Gabrier"
 __license__ = "Unlicense"
 
 import os
+import sys
+os.mkn
+# print(f"{sys.argv=}")
 
-current_language = os.getenv("LANG", "en_US")[:5]
-
-msg = ""
-
-if current_language == "pt_BR":
-    msg = "Eae mundo"
-elif current_language == "it_IT":
-    msg = "Ciao, Mondo"
-elif current_language == "en_US":
-    msg = "Hello, world"
-
-print(msg)
-print(current_language[:5])
+arguments = {
+    "lang": None, 
+    "count": 1
+}
 
 
-teste = "🤬"
-teste.encode("utf-8")
-teste_encoded = teste.encode("utf-8")
-teste_encoded.decode()
+for arg in sys.argv[1:]:
+    #TODO: Tratar value error
+    key, value = arg.split("=")
+    key = key.lstrip("-").strip()
+    value = value.strip()
+    if key not in arguments:
+        print("invalid argument: ", key)
+        sys.exit()
+    arguments[key] = value
+
+current_language = arguments["lang"]
+if current_language is None:
+    #TODO: Usar repedição
+    if "LANG" in os.environ:
+        current_language = os.getenv("LANG")
+    else:
+        current_language = input("Choose a language: ")
+
+current_language = current_language[:5]
+
+msg = {
+    "pt_BR": "Eae mundo",
+    "it_IT": "Ciao, Mondo",
+    "en_US": "Hello, world",
+}
+
+print(msg[current_language] * int(arguments["count"]))
