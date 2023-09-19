@@ -1,0 +1,3 @@
+gab,2,5
+Lau,1,10
+Vasco da Gama,4,10

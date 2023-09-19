@@ -1,0 +1,40 @@
+2023-09-18 14:29:29,049 gab DEBUG l:25 f:logs.py Mensagem pro dev
+2023-09-18 14:29:29,050 gab INFO l:26 f:logs.py Mensagem geral
+2023-09-18 14:29:29,051 gab WARNING l:27 f:logs.py Aviso sem erro
+2023-09-18 14:29:29,052 gab ERROR l:28 f:logs.py Erro mesmo
+2023-09-18 14:29:29,053 gab CRITICAL l:29 f:logs.py Erro geral
+2023-09-18 14:29:40,330 gab DEBUG l:25 f:logs.py Mensagem pro dev
+2023-09-18 14:29:40,331 gab INFO l:26 f:logs.py Mensagem geral
+2023-09-18 14:29:40,332 gab WARNING l:27 f:logs.py Aviso sem erro
+2023-09-18 14:29:40,333 gab ERROR l:28 f:logs.py Erro mesmo
+2023-09-18 14:29:40,334 gab CRITICAL l:29 f:logs.py Erro geral
+2023-09-18 14:29:41,596 gab DEBUG l:25 f:logs.py Mensagem pro dev
+2023-09-18 14:29:41,597 gab INFO l:26 f:logs.py Mensagem geral
+2023-09-18 14:29:41,598 gab WARNING l:27 f:logs.py Aviso sem erro
+2023-09-18 14:29:41,599 gab ERROR l:28 f:logs.py Erro mesmo
+2023-09-18 14:29:41,600 gab CRITICAL l:29 f:logs.py Erro geral
+2023-09-18 14:29:42,187 gab DEBUG l:25 f:logs.py Mensagem pro dev
+2023-09-18 14:29:42,188 gab INFO l:26 f:logs.py Mensagem geral
+2023-09-18 14:29:42,189 gab WARNING l:27 f:logs.py Aviso sem erro
+2023-09-18 14:29:42,190 gab ERROR l:28 f:logs.py Erro mesmo
+2023-09-18 14:29:42,191 gab CRITICAL l:29 f:logs.py Erro geral
+2023-09-18 14:29:42,812 gab DEBUG l:25 f:logs.py Mensagem pro dev
+2023-09-18 14:29:42,813 gab INFO l:26 f:logs.py Mensagem geral
+2023-09-18 14:29:42,814 gab WARNING l:27 f:logs.py Aviso sem erro
+2023-09-18 14:29:42,815 gab ERROR l:28 f:logs.py Erro mesmo
+2023-09-18 14:29:42,816 gab CRITICAL l:29 f:logs.py Erro geral
+2023-09-18 14:29:43,427 gab DEBUG l:25 f:logs.py Mensagem pro dev
+2023-09-18 14:29:43,428 gab INFO l:26 f:logs.py Mensagem geral
+2023-09-18 14:29:43,429 gab WARNING l:27 f:logs.py Aviso sem erro
+2023-09-18 14:29:43,430 gab ERROR l:28 f:logs.py Erro mesmo
+2023-09-18 14:29:43,431 gab CRITICAL l:29 f:logs.py Erro geral
+2023-09-18 14:29:44,371 gab DEBUG l:25 f:logs.py Mensagem pro dev
+2023-09-18 14:29:44,372 gab INFO l:26 f:logs.py Mensagem geral
+2023-09-18 14:29:44,373 gab WARNING l:27 f:logs.py Aviso sem erro
+2023-09-18 14:29:44,374 gab ERROR l:28 f:logs.py Erro mesmo
+2023-09-18 14:29:44,375 gab CRITICAL l:29 f:logs.py Erro geral
+2023-09-18 14:29:45,349 gab DEBUG l:25 f:logs.py Mensagem pro dev
+2023-09-18 14:29:45,350 gab INFO l:26 f:logs.py Mensagem geral
+2023-09-18 14:29:45,351 gab WARNING l:27 f:logs.py Aviso sem erro
+2023-09-18 14:29:45,352 gab ERROR l:28 f:logs.py Erro mesmo
+2023-09-18 14:29:45,353 gab CRITICAL l:29 f:logs.py Erro geral
